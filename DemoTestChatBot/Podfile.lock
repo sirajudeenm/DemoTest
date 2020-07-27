@@ -1,0 +1,39 @@
+PODS:
+  - AWSCognito (2.14.2):
+    - AWSCore (= 2.14.2)
+  - AWSCore (2.14.2)
+  - AWSLex (2.14.2):
+    - AWSCore (= 2.14.2)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSLex
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - AWSCognito
+    - AWSCore
+    - AWSLex
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  AWSCognito: 831e1eb1295f4e10442b16fc68b74c60d777b75c
+  AWSCore: 80da498ab0979e77dbdc7690a61ceaaccfb0499a
+  AWSLex: ab4d3ce8531e43143de8597fd7572f5c09c7255a
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: f7d1de51ab5eb5d67d4bd4f423f664bbbd9d15af
+
+COCOAPODS: 1.9.3
